@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Slugify",
+        "repositoryURL": "https://github.com/lgryl/Slugify",
+        "state": {
+          "branch": null,
+          "revision": "54b0f22bb445385ae8f89bbbcc1e7906fb3b6bdf",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

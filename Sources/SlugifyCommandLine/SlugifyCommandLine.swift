@@ -1,6 +1,7 @@
 // Created 13/11/2021
 
 import Foundation
+import Slugify
 
 public final class SlugifyCommandLine {
     private let arguments: [String]
@@ -10,6 +11,6 @@ public final class SlugifyCommandLine {
     }
 
     public func run() throws {
-        print("Hello world")
+        print("Hello world!".slug)
     }
 }
