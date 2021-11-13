@@ -5,10 +5,10 @@ import Slugify
 import ArgumentParser
 
 struct SlugifyCommand: ParsableCommand {
-    @Argument(help: "text to create a slug fro.")
+    @Argument(help: "text to create a slug from.")
     var text: String
 
     mutating func run() throws {
-        print("Hello \(text)!".slug)
+        print(text.slug)
     }
 }

@@ -8,6 +8,9 @@ let package = Package(
     platforms: [
         .iOS(.v13), .macOS(.v10_14)
     ],
+    products: [
+        .executable(name: "slugify", targets: ["SlugifyCommandLine"])
+    ],
     dependencies: [
         .package(
             url: "https://github.com/lgryl/Slugify",
